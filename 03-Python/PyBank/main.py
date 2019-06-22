@@ -35,11 +35,11 @@ avg_change = sum(change_list)/len(change_list)
      
 greatest_increase = max(change_list)
 greatest_index = change_list.index(greatest_increase)
-greatest_date = dates[greatest_index]
+greatest_date = dates[greatest_index+1]
 
 greatest_decrease = min(change_list)
 worst_index = change_list.index(greatest_decrease)
-worst_date = dates[worst_index]
+worst_date = dates[worst_index+1]
 
 #Generate output analysis
 
@@ -56,6 +56,6 @@ output = (
 print(output)
 
 #Export the results to text file
-file_to_output = "/Users/liuyang/Desktop/python-challenge/PyBank/PyBank_analysis.txt"
+file_to_output = "/Users/liuyang/source/DataViz/Homework/03-Python/PyBank/PyBank_analysis.txt"
 with open(file_to_output, "w")as txt_file:
     txt_file.write(output)
