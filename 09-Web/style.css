@@ -1,0 +1,178 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    margin: 0;
+    font-family: Merriweather, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #a5550b;
+    text-align: left;
+    background-color: rgba(243, 245, 253, 0.986)
+}
+
+.box {
+    padding: 10px;
+    background: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    align-content: center;
+}
+
+
+/* navbar*/
+
+.navbar {
+    max-height: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 30px;
+    background: rgb(175, 197, 192);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navigation .navbar-brand {
+    color: white;
+    margin-left: 10px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: #0BADA6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.active,
+.dropdown-menu .dropdown-item:active a:hover {
+    background-color: #E7E7E7;
+}
+
+.dropdown-item {
+    color: #6D8092;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active,
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #E7E7E7;
+}
+
+a {
+    color: #6D8092;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    background-color: #E7E7E7;
+}
+
+.navbar-brand:hover {
+    color: rgb(175, 175, 175);
+}
+
+
+/* image active*/
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.active,
+.panel:hover {
+    border-color: #0BADA6;
+    border-style: solid;
+}
+
+.visualization {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Media query */
+
+@media (max-width: 480px) {
+    .navbar li {
+        padding: 10px;
+    }
+    .box {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .navbar ul {
+        visibility: hidden;
+    }
+    #nav-select {
+        visibility: visible;
+    }
+}
+
+
+/* For desktop: */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529
+}

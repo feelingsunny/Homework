@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Cloudness</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Theme CSS - Includes Bootstrap -->
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Lattitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
+              <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="max_temperature.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="wind_speed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="comparisons.html">Comparation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <!--left box-->
+                <div class="box" style="padding-bottom: 5px;">
+                    <h3 class="title">Cloudiness</h3>
+                    <hr>
+                    <img src="images/cloudymap.png" class="vizualization rounded float-left" alt="cloudiness Graph">
+                    <p>Cloudiness does not show a strong correlation to latitude. The visualization shows a great variety of cloudiness percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive pattern between cloudiness
+                        and latitude.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <!--right box-->
+                <div class="box">
+                    <h5 class="title">Visualizations</h5>
+                    <hr>
+
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="max_temperature.html">
+                                    <img class="panel active" src="images/temperaturemap.png" alt="Max Temperature Image">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="humidity.html">
+                                    <img class="panel" src="images/humiditymap.png" alt="Humidity Graph">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="cloudiness.html">
+                                    <img class="panel" src="images/cloudymap.png" alt="Cloudiness Graph">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="wind_speed.html">
+                                    <img class="panel" src="images/windmap.png" alt="Wind Speed Graph">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="bg-light py-5">
+            <div class="container-fluid">
+                <div class="middle text-center text-muted">Copyright &copy; 2019 - Vanderbilt BootCamp</div>
+            </div>
+        </footer>
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
